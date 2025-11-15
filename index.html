@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aditi — Page 1</title>
+<style>
+body{
+    background:#ffe6f2;
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align:center;
+}
+h1{
+    color:#d6336c;
+    font-size:40px;
+}
+.cat{
+    width:200px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-20px);}
+    100%{transform:translateY(0);}
+}
+button{
+    background:#ff4d79;
+    border:none;
+    color:white;
+    padding:15px 30px;
+    font-size:20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+.hearts{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    animation: floating 6s infinite linear;
+}
+@keyframes floating{
+    0%{transform:translateY(100vh);}
+    100%{transform:translateY(-10vh);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="hearts">❤️ 💗 💖 💘 💞</div>
+
+<h1>Hi Aditi ❤️</h1>
+<p style="font-size:22px;">I made this just for you! Ready for something cute? 😺💞</p>
+
+<img src="https://i.imgur.com/THZ2e9G.png" class="cat">
+
+<br><br>
+
+<a href="page2.html"><button>Next ➜</button></a>
+
+</body>
+</html>
